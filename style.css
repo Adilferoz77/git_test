@@ -1,0 +1,64 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h3{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 25px;
+    
+}
+.cont{
+    padding: 20px;
+}
+.card{
+    padding: 30px;
+}
+.card img{
+    margin-bottom: 15px;
+}
+.card h3{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.card p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 10px 10px 0 0 ;
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+    color : white;
+    border-radius: 0 0 10px 10px;
+}
+.card button{
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border-style: none;
+    border: solid transparent 1px;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: solid white 1px;
+    transition: 0.3s;
+}
